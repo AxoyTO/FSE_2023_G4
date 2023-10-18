@@ -162,3 +162,22 @@ cython_debug/
 
 # zip files
 *.xz
+*.gz
+*Graph-Executor
+*practical*
+
+# txt, tsv
+*.txt
+*.tsv
+
+# c, cpp, hpp
+*.cpp
+*.hpp
+*.c
+*install_cgal-4.14.1.sh
+
+# ds
+*.DS_Store
+
+# LICENSE
+LICENSE
