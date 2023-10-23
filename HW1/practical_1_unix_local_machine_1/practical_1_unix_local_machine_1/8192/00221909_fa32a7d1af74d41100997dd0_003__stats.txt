@@ -1,0 +1,90 @@
+item_id: 00221909_fa32a7d1af74d41100997dd0_003 
+num_points: 8192 
+~~~~~~~~~~~~~~~~~~~~~~ 
+noise_level: res * 0 
+mean_normals_mse: 0.38505975572454326 
+mean_normals_squared_dot_product: 0.9406102030645009 
+mean_features_iou: 0.7919463087248322 
+mean_features_balanced_acc: 0.9494005690501757 
+mean_features_precision: 0.8374193548387097 
+mean_features_recall: 0.935832732516222 
+~~~~~~~~~~~~~~~~~~~~~~ 
+noise_level: res * 1 
+mean_normals_mse: 0.4622424414195159 
+mean_normals_squared_dot_product: 0.8654086094657153 
+mean_features_iou: 0.4467548834278513 
+mean_features_balanced_acc: 0.7408925219856684 
+mean_features_precision: 0.7799779977997799 
+mean_features_recall: 0.5111751982696467 
+~~~~~~~~~~~~~~~~~~~~~~ 
+noise_level: res * 2 
+mean_normals_mse: 0.5001254638808281 
+mean_normals_squared_dot_product: 0.7823703671916631 
+mean_features_iou: 0.15785997357992074 
+mean_features_balanced_acc: 0.5768257997665951 
+mean_features_precision: 0.6530054644808743 
+mean_features_recall: 0.17231434751261715 
+~~~~~~~~~~~~~~~~~~~~~~ 
+noise_level: res * 3 
+mean_normals_mse: 0.5570441631389914 
+mean_normals_squared_dot_product: 0.5974513957670514 
+mean_features_iou: 0.07972508591065292 
+mean_features_balanced_acc: 0.5368205447137717 
+mean_features_precision: 0.6304347826086957 
+mean_features_recall: 0.083633741888969 
+~~~~~~~~~~~~~~~~~~~~~~ 
+noise_level: res * 4 
+mean_normals_mse: 0.6178718494296256 
+mean_normals_squared_dot_product: 0.5318636223459691 
+mean_features_iou: 0.04169562195969423 
+mean_features_balanced_acc: 0.5178086959469875 
+mean_features_precision: 0.5357142857142857 
+mean_features_recall: 0.043258832011535686 
+~~~~~~~~~~~~~~~~~~~~~~ 
+noise_level: res * 5 
+mean_normals_mse: 0.6711405620777448 
+mean_normals_squared_dot_product: 0.4303319626972863 
+mean_features_iou: 0.02902557014512785 
+mean_features_balanced_acc: 0.5107320680592911 
+mean_features_precision: 0.4117647058823529 
+mean_features_recall: 0.03028118240807498 
+~~~~~~~~~~~~~~~~~~~~~~ 
+noise_level: res * 6 
+mean_normals_mse: 0.7026598091108026 
+mean_normals_squared_dot_product: 0.3800938117919078 
+mean_features_iou: 0.025499655410062026 
+mean_features_balanced_acc: 0.5086357151824938 
+mean_features_precision: 0.36633663366336633 
+mean_features_recall: 0.026676279740447006 
+~~~~~~~~~~~~~~~~~~~~~~ 
+noise_level: res * 7 
+mean_normals_mse: 0.7042769834860014 
+mean_normals_squared_dot_product: 0.3858838733990002 
+mean_features_iou: 0.02717391304347826 
+mean_features_balanced_acc: 0.508174202882121 
+mean_features_precision: 0.32 
+mean_features_recall: 0.02883922134102379 
+~~~~~~~~~~~~~~~~~~~~~~ 
+noise_level: res * 8 
+mean_normals_mse: 0.7240542084840768 
+mean_normals_squared_dot_product: 0.35608806518956204 
+mean_features_iou: 0.028747433264887063 
+mean_features_balanced_acc: 0.5097034126588501 
+mean_features_precision: 0.3620689655172414 
+mean_features_recall: 0.03028118240807498 
+~~~~~~~~~~~~~~~~~~~~~~ 
+noise_level: res * 9 
+mean_normals_mse: 0.7336392003239447 
+mean_normals_squared_dot_product: 0.35659343341571037 
+mean_features_iou: 0.018430034129692834 
+mean_features_balanced_acc: 0.5040021571144251 
+mean_features_precision: 0.2571428571428571 
+mean_features_recall: 0.01946647440519106 
+~~~~~~~~~~~~~~~~~~~~~~ 
+noise_level: res * 10 
+mean_normals_mse: 0.7042269948295058 
+mean_normals_squared_dot_product: 0.3834756858916291 
+mean_features_iou: 0.01478494623655914 
+mean_features_balanced_acc: 0.5005097719084582 
+mean_features_precision: 0.17886178861788618 
+mean_features_recall: 0.015861571737563085 
