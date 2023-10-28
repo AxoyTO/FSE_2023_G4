@@ -1,9 +1,12 @@
 import subprocess as sb
 import pexpect
+import os
 import threading
 
+TESTS_FILE = 'cases.txt'
+
 def read_tests():
-    with open('cases.txt', 'r', encoding='utf8') as f:
+    with open(TESTS_FILE, 'r', encoding='utf8') as f:
         return f.read().splitlines()
 
 def run_tests():
@@ -32,7 +35,15 @@ def timeout():
 
 
 if __name__ == '__main__':
-    sb.check_call("g++ ../src/*.cpp", shell=True)
+    if 'test' in os.getcwd():
+        sb.check_call("g++ ../src/*.cpp", shell=True)
+    elif 'test' in os.listdir():
+        sb.check_call("g++ src/*.cpp", shell=True)
+        TESTS_FILE = 'test/' + TESTS_FILE
+    
     run_tests()
 
-    sb.check_call(["rm", "a.out"], stdout = sb.DEVNULL, stderr = sb.DEVNULL)
+    if 'a.out' in os.listdir():
+        sb.check_call(["rm", "a.out"], stdout = sb.DEVNULL, stderr = sb.DEVNULL)
+
+    print("* TESTING COMPLETED.")
