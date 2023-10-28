@@ -12,6 +12,9 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
+      - name: configure dependencies
+        run: chmod +x dependencies.sh
+          ./dependencies.sh
       - name: make
         run: make
       - name: make test
