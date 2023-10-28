@@ -34,5 +34,4 @@ def timeout():
 if __name__ == '__main__':
     sb.check_call("g++ ../src/*.cpp", shell=True)
     run_tests()
-
     sb.check_call(["rm", "a.out"], stdout = sb.DEVNULL, stderr = sb.DEVNULL)
