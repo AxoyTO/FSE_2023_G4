@@ -3,7 +3,7 @@
 
 int main() {
   int number;
-  std::cout << "Enter a number:";
+  std::cout << "Enter a number: ";
   std::cin >> number;
 
   auto DC = DecimalConverter(number);
