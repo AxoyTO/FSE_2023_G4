@@ -161,3 +161,4 @@ cython_debug/
 
 # C++
 c_cpp_properties.json
+main
