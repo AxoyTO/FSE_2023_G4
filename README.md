@@ -53,7 +53,7 @@ There are 3 main steps to build and test the program.
     ```
     Testing the program
     ``` bash 
-    ./test/test.py 
+    ./test/test 
     ```
 
 ## Development 
