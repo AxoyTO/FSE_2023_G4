@@ -47,16 +47,15 @@ There are 3 main steps to build and test the program.
     ``` bash 
       python3 test/test.py 
     ```
-   
  2. Using Dockerfile
-   ``` bash
+    ``` bash 
       docker build -t project:v1.0 -f Dockerfile .
-      docker run -it --entrypoint bash project:v1.0
-   ```
-   Testing the program
-   ``` bash 
+      docker run -it --entrypoint bash project:v1.0 
+    ```
+    Testing the program
+    ``` bash 
       ./test/test.py 
-   ```
+    ```
 
 ## Development 
 
