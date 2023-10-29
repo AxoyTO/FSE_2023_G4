@@ -24,13 +24,14 @@ There are 3 main steps to build and test the program.
 
  1. Update and install necessary's packages 
     ``` bash 
-     sudo apt-get update
-     sudo apt-get install -y build-essential
-     sudo apt-get install git
+    sudo apt-get update
+    sudo apt-get install -y build-essential
+    sudo apt-get install git
     ```
  2. Clone the repository
-     ``` bash 
-      git clone https://github.com/AxoyTO/FSE_2023_G4.git 
+    ``` bash 
+    git clone https://github.com/AxoyTO/FSE_2023_G4.git
+    cd FSE_2023_G4
     ```
      
  3. [Build & Test the program](#build--test-the-program)
@@ -39,20 +40,20 @@ There are 3 main steps to build and test the program.
 
  1. Using Makefile
     ``` bash 
-      make -f Makefile 
+    make -f Makefile 
     ```
     Testing the program
     ``` bash 
-      python3 test/test.py 
+    python3 test/test.py 
     ```
  2. Using Dockerfile
     ``` bash 
-      docker build -t project:v1.0 -f Dockerfile .
-      docker run -it --entrypoint bash project:v1.0 
+    docker build -t project:v1.0 -f Dockerfile .
+    docker run -it --entrypoint bash project:v1.0 
     ```
     Testing the program
     ``` bash 
-      ./test/test.py 
+    ./test/test 
     ```
 
 ## Development 
