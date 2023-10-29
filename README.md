@@ -33,8 +33,7 @@ There are 3 main steps to build and test the program.
       git clone https://github.com/AxoyTO/FSE_2023_G4.git 
     ```
      
- 4. [Build & Test the program](#build--test-the-program)
- 5. [Development](#development)
+ 3. [Build & Test the program](#build--test-the-program)
 
 ## Build & Test the program
 
