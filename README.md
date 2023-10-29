@@ -8,8 +8,7 @@ Hi! We are group 4 students in **Foundations of Software Engineering class** and
 
  - [Keys Features](#keys-features)
  - [Quickstart](#quickstart)
- - [Build the program](#build-the-program)
- -  [Test the program](#test-the-program)
+ - [Build & Test the program](#build-the-program)
  - [Development](#development) 
  - [Credit](#credit)
 
@@ -34,8 +33,8 @@ There are 3 main steps to build and test the program.
       git clone https://github.com/AxoyTO/FSE_2023_G4.git 
     ```
      
- 4. [Build the program](#build-the-program)
- 5. [Test the program](#test-the-program)
+ 4. [Build & Test the program](#build-the-program)
+ 5. [Development](#development)
 
 ## Build & Test the program
 
