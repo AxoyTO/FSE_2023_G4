@@ -15,7 +15,7 @@ Hi! We are group 4 students in **Foundations of Software Engineering class** and
 
 ## Keys Features
 
- -   Decimal to Binary and vice versa: Convert between decimal and binary numbers, ideal for programmers.
+-   Decimal to Binary and vice versa: Convert between decimal and binary numbers, ideal for programmers.
 -   Decimal to Hexadecimal and vice versa: Convert between decimal and binary numbers, ideal for programmers.
 -   Decimal to Roman Numerals and vice versa: Easily transform decimal numbers into Roman numerals and vice versa
 
@@ -25,9 +25,9 @@ There are 3 main steps to build and test the program.
 
  1. Update and install necessary's packages 
     ``` bash 
-     apt-get update
-     apt-get install -y build-essential
-	 apt-get install git
+     sudo apt-get update
+     sudo apt-get install -y build-essential
+     sudo apt-get install git
     ```
  2. Clone the repository
      ``` bash 
@@ -37,23 +37,25 @@ There are 3 main steps to build and test the program.
  4. [Build the program](#build-the-program)
  5. [Test the program](#test-the-program)
 
-## Build the program
+## Build & Test the program
 
- 1. Run `cmake CMakeLists.txt` to make  a set of directives describing the project's source files and targets.
-     ``` bash 
-      cmake CMakeLists.txt 
-    ```
-   
- 2. Run `make -f Makefile`
+ 1. Using Makefile
     ``` bash 
       make -f Makefile 
     ```
+    Testing the program
+    ``` bash 
+      python3 test/test.py 
+    ```
    
-## Test the program
-Run this command in your Ubuntu to test the program.
-
-  ``` bash 
-   python3 test/test.py
+ 3. Using Dockerfile
+   ``` bash
+	docker build -t project:v1.0 -f Dockerfile .
+   	docker run -it --entrypoint bash project:v1.0
+   ```
+   Testing the program
+   ``` bash 
+      ./test/test.py 
    ```
 
 ## Development 
