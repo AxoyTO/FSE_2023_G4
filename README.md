@@ -42,11 +42,19 @@ There are 3 main steps to build and test the program.
     ``` bash 
     make -f Makefile 
     ```
+    or just
+    ``` bash 
+    make
+    ```
     Testing the program
     ``` bash 
     python3 test/test.py 
     ```
- 2. Using Dockerfile
+    or just
+    ``` bash 
+    make test
+    ```
+ 3. Using Dockerfile
     ``` bash 
     docker build -t project:v1.0 -f Dockerfile .
     docker run -it --entrypoint bash project:v1.0 
