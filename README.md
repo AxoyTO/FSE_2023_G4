@@ -38,15 +38,11 @@ There are 3 main steps to build and test the program.
  5. [Test the program](#test-the-program)
 
 ## Build the program
-
- 1. Run `cmake CMakeLists.txt` to make  a set of directives describing the project's source files and targets.
-     ``` bash 
-      cmake CMakeLists.txt 
-    ```
    
- 2. Run `make -f Makefile`
+ 1. Run `make -f Makefile` or just `make`
     ``` bash 
-      make -f Makefile 
+      make -f Makefile
+      make
     ```
    
 ## Test the program
@@ -55,6 +51,10 @@ Run this command in your Ubuntu to test the program.
   ``` bash 
    python3 test/test.py
    ```
+or 
+``` bash 
+   make test
+```
 
 ## Development 
 
